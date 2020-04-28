@@ -2,7 +2,7 @@
 export TERM=xterm-256color
 export CLICOLOR=1
 export LSCOLORS=gxgxcxdxbxegedabagacad  # cyan directories
-PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]'
+PS1='\u@\h:\w'
 PS2="> "
 
 # git
@@ -14,9 +14,10 @@ export IRCNAME="invalidusrname"
 export IRCSERVER="irc.freenode.net"
 
 ## DEVELOPMENT
-export SVN_EDITOR='vim'
 export EDITOR='vim'
 
 # ruby
 export RI="--format ansi -T --width 70"
+export RUBYOPT="-W0" # or "-W:no-deprecated -W:no-experimental"
 
+export BASH_SILENCE_DEPRECATION_WARNING=1
