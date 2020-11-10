@@ -21,3 +21,5 @@ export RI="--format ansi -T --width 70"
 export RUBYOPT="-W0" # or "-W:no-deprecated -W:no-experimental"
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
+export CLOUDSDK_PYTHON=python2
